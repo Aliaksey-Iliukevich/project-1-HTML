@@ -8,106 +8,136 @@
 </head>
 <body>
     <header class="header">
-        <a href="./index.html" class="logo"><img src="./assets/img/Logo.svg" alt="logo"></a>
-        <ul class="menu">
-            <li class="menu_item"><a class="menu_link" href="#">Main</a></li>
-            <li class="menu_item"><a class="menu_link" href="#">Rates</a></li>
-            <li class="menu_item"><a class="menu_link" href="#">Create account</a></li>
-        </ul>
+        <div class="container">
+            <div class="header_wrapper">
+                <a href="./index.html" class="logo"><img src="./assets/img/Logo.svg" alt="logo"></a>
+                <ul class="menu">
+                    <li class="menu_item"><a class="menu_link" href="#">Main</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Rates</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Create account</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <section class="main">
-        <h1 class="main_title">Markup achievement</h1>
-        <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
-        <button class="btn">Learn More</button>
-        <img class="main_img" src="./assets/img/main-image.png" alt="main-image">
+        <div class="container">
+            <div class="main_wrapper">
+                <div class="main_info">
+                    <h1 class="main_title">Markup achievement</h1>
+                    <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+                <img class="main_img" src="./assets/img/main-image.png" alt="main-image">
+            </div>
+        </div>
     </section>
     <section class="rates_section">
-        <h2 class="title">Rates</h2>
-        <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <table class="table">
-            <tr>
-                <th class="table_subtitle gray">Features</th>
-                <th class="table_title">Standart</th>
-                <th class="table_title">Plus</th>
-                <th class="table_title">PRO</th>
-            </tr>
-            <tr>
-                <th class="table_subtitle">Theory</th>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-            </tr>
-            <tr>
-                <th class="table_subtitle">Practice</th>
-                <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-            </tr>
-            <tr>
-                <th class="table_subtitle">Code review</th>
-                <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
-                <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
-                <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
-            </tr>
-            <tr class="table_footer">
-                <th class="table_subtitle"><a class="table_link" href="#">Have questions?</a></th>
-                <td><button class="table_button">get now</button></td>
-                <td><button class="table_button active">get now</button></td>
-                <td><button class="table_button">get now</button></td>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="rares_wrapper">
+                <h2 class="title">Rates</h2>
+                <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+                <table class="table">
+                    <tr>
+                        <th class="table_subtitle gray">Features</th>
+                        <th class="table_title">Standart</th>
+                        <th class="table_title">Plus</th>
+                        <th class="table_title">PRO</th>
+                    </tr>
+                    <tr>
+                        <th class="table_subtitle">Theory</th>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                    </tr>
+                    <tr>
+                        <th class="table_subtitle">Practice</th>
+                        <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                    </tr>
+                    <tr>
+                        <th class="table_subtitle">Code review</th>
+                        <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
+                        <td><img src="./assets/img/Icon_Close.svg" alt="close"></td>
+                        <td><img src="./assets/img/Icon_Check.svg" alt="check"></td>
+                    </tr>
+                    <tr class="table_footer">
+                        <th class="table_subtitle"><a class="table_link" href="#">Have questions?</a></th>
+                        <td><button class="table_button">get now</button></td>
+                        <td><button class="table_button active">get now</button></td>
+                        <td><button class="table_button">get now</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </section>
     <section class="create_account_section">
-        <h2 class="title">Create your free account</h2>
-        <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
-        <ul class="list">
-            <li class="list_item">Easy setup, fast start</li>
-            <li class="list_item">Free forever for core features</li>
-            <li class="list_item">14-day trial of premium features</li>
-        </ul>
-        <form action="#">
-            <input type="text" placeholder="Full Name*">
-            <input type="email" placeholder="Email*">
-            <input type="password" placeholder="Email*">
-            <input type="date">
-            <select name="#" id="#1">
-                <option selected disabled>Country</option>
-                <option>Belarus</option>
-                <option>USA</option>
-                <option>Russia</option>
-            </select>
-            <div>
-                <label for="front">
-                    <input type="radio" name="stack" checked id="front">
-                    Frontend
-                </label>
-                <label for="back">
-                    <input type="radio" name="stack" id="back">
-                    Backend
-                </label>
+        <div class="container">
+            <div class="account_wrapper">
+                <div class="account_info_wrapper">
+                    <h2 class="title">Create your free account</h2>
+                    <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily
+                        lives.
+                        The
+                        majority of people pay little attention to dreams. Dreams can help us find solutions to our daily
+                        problems
+                        and see things from a different perspective. Whenever we are dreaming, we can be who or what we want
+                        to
+                        be,
+                        regardless of the fact that in real life.</p>
+                    <ul class="list">
+                        <li class="list_item">Easy setup, fast start</li>
+                        <li class="list_item">Free forever for core features</li>
+                        <li class="list_item">14-day trial of premium features</li>
+                    </ul>
+                </div>
+                <form action="#">
+                    <input type="text" placeholder="Full Name*">
+                    <div class="fields_weapper">
+                        <input type="email" placeholder="Email*">
+                        <input type="password" placeholder="Email*">
+                        <input type="date">
+                        <select name="#" id="#1">
+                            <option selected disabled>Country</option>
+                            <option>Belarus</option>
+                            <option>USA</option>
+                            <option>Russia</option>
+                        </select>
+                    </div>
+                    <div class="stack">
+                        <label for="front">
+                            <input type="radio" name="stack" checked id="front">
+                            Frontend
+                        </label>
+                        <label for="back">
+                            <input type="radio" name="stack" id="back">
+                            Backend
+                        </label>
+                    </div>
+                    <fieldset>
+                        <legend>Favorite Technologies</legend>
+                        <label for="html">
+                            <input type="checkbox" name="html" id="html">
+                            HTML
+                        </label>
+                        <label for="css">
+                            <input type="checkbox" name="css" id="css">
+                            CSS
+                        </label>
+                        <label for="react">
+                            <input type="checkbox" name="react" id="react" checked>
+                            React
+                        </label>
+                        <label for="sc">
+                            <input type="checkbox" name="sc" id="sc">
+                            Styled components
+                        </label>
+                    </fieldset>
+                    <textarea name="#" id="#" cols="30" rows="10"></textarea>
+                    <input type="submit" class="button">
+                </form>
             </div>
-            <fieldset>
-                <legend>Favorite Technologies</legend>
-                <label for="html">
-                    <input type="checkbox" name="html" id="html">
-                    HTML
-                </label>
-                <label for="css">
-                    <input type="checkbox" name="css" id="css">
-                    CSS
-                </label>
-                <label for="react">
-                    <input type="checkbox" name="react" id="react" checked>
-                    React
-                </label>
-                <label for="sc">
-                    <input type="checkbox" name="sc" id="sc">
-                    Styled components
-                </label>
-            </fieldset>
-            <textarea name="#" id="#" cols="30" rows="10"></textarea>
-            <input type="submit">
-        </form>
+        </div>
     </section>
     <footer class="footer">
         <small>Copyright © 2023. All rights reserved.</small>

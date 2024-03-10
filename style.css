@@ -11,23 +11,56 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+.container{
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 a {
     text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 ul {
-    list-style: nones;
+    list-style: none;
 }
 
 button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-5px);
 }
 
 
 .header{
     background-color: #0A61F7;
     padding: 14px 0;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 24px;
 }
 
 .menu_link {
@@ -37,6 +70,17 @@ button {
     line-height: 20px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+.main_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.main_img{
+    align-self: flex-end;
 }
 
 .main_title {
@@ -54,10 +98,25 @@ button {
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0px;
+    margin-bottom: 40px;
+}
+.main .text{
+    max-width: 380px;
+}
+
+.rares_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rates_section .text {
     margin-bottom: 40px;
+}
+
+.account_wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .create_account_section .text {
@@ -173,6 +232,21 @@ td {
 form {
     width: 100%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fields_weapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stack,
+fieldset{
+    display: flex;
+    column-gap: 30px;
 }
 
 input,
@@ -210,6 +284,7 @@ input[type="date"],
 select {
     width: 230px;
     height: 50px;
+    flex-grow: 1;
 }
 
 select {
@@ -219,6 +294,10 @@ select {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     background: url("./assets/img/Calendar.svg") no-repeat;
+}
+
+input[type="radio"], input[type="checkbox"], input[type="date"], select {
+    cursor: pointer;
 }
 
 fieldset {
@@ -234,6 +313,14 @@ textarea {
 
 form .button {
     width: 100%;
+    background-color: #0A61F7;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form .button:hover {
+    transform: translateY(-5px);
 }
 
 .footer {
